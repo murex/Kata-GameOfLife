@@ -24,7 +24,7 @@ _Note: Bottom-up / Top-down are also known as Inside-out / Outside-in_
 ### The pros of Bottom-up TDD?
 
 * It lets you work in small steps
-* It tends to results in more reusable and robust bricks
+* It tends to result in more reusable and robust bricks
 
 ### The cons of Bottom-up TDD?
 
@@ -51,8 +51,6 @@ You can fill it from [here](./QuickRetrospective.md)
 ## Session Information
 
 ### Style & Duration
-
-_`Remove irrelevant formats and adjust duration if needed`_
 
 - 2-hour [Randori Kata](./doc/RandoriKata.md)
 
