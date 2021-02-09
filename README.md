@@ -1,6 +1,6 @@
 # Game of Life
 
-[![Kata Image](images/ColorCodedRacetrack.gif)](https://images.unsplash.com/photo-1556565681-306458ef93cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80)
+[![Kata Image](images/ColorCodedRacetrack.gif)](https://upload.wikimedia.org/wikipedia/commons/d/d0/Color_coded_racetrack_large_channel.gif)
 
 ## Description
 
