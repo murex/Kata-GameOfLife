@@ -12,12 +12,13 @@ Bottom-up style is when you build a brick outside of your main acceptance test f
 with the rest of the program. On the contrary, Top-down style is when you only work on the code that is covered
 by the acceptance or high level tests.
 
-At some point in the kata, you'll see that you need a function to compute the count of living neighbors to pass
-the next test. The bottom-up way to solve this problem is:
+In order to experiment full bottom-up style start the kata with 10 minutes of up-front design and come up with the
+different 'bricks' you will need to solve the problem. Then use the bottom-up way to solve the kata:
 
-1. Get back to green (by disabling the last test or by adding a hard-coded fake implementation)
-2. Test drive the implementation of countAliveNeighboringCells with the minimal scope to make the previous test pass
-3. Use this function in the main code, and pass the initial test properly
+1. Write an acceptance test, and comment it
+2. Test drive the implementation of each brick
+3. Using all the bricks, test drive the implementation of the main function
+4. Uncomment and pass your acceptance test
 
 _Note: Bottom-up / Top-down are also known as Inside-out / Outside-in_
 
