@@ -79,3 +79,5 @@ distribution, and is available at the Open Source site [here](https://opensource
 ## Acknowledgements
 
 See [ACKNOWLEDGEMENTS.md](./ACKNOWLEDGEMENTS.md) for more information.
+
+## Contributors
