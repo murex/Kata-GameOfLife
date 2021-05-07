@@ -8,7 +8,7 @@ Available [here](http://codingdojo.org/kata/GameOfLife/)
 
 ### What is Bottom-up and Top-down TDD?
 
-Bottom-up style is when you build a brick outside of your main acceptance test flow and only later integrate it
+Bottom-up style is when you build a brick outside your main acceptance test flow and only later integrate it
 with the rest of the program. On the contrary, Top-down style is when you only work on the code that is covered
 by the acceptance or high level tests.
 
