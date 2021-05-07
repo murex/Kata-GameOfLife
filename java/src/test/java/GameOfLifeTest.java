@@ -48,4 +48,17 @@ public class GameOfLifeTest {
         assertArrayEquals(world2, GameOfLife.generation(world1));
         assertArrayEquals(world1, GameOfLife.generation(world2));
     }
+
+
+    /* Bottom-up */
+
+    @Test
+    public void count_alive_neighboring_cells_first_test() {
+    }
+
+    /* Then top-down */
+
+    @Test
+    public void game_of_life_first_test() {
+    }
 }
