@@ -45,3 +45,15 @@ TEST(GameOfLifeTest, DISABLED_toad_oscillator_acceptance_test)
 	EXPECT_EQ(world2, kata::game_of_life::generation(world1));
 	EXPECT_EQ(world1, kata::game_of_life::generation(world2));
 }
+
+/* Bottom-up */
+
+TEST(CountAliveNeighboringCells, first_test)
+{
+}
+
+/* Then top-down */
+
+TEST(GameOfLifeTest, first_test)
+{
+}
