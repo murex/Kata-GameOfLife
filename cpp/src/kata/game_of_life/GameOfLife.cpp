@@ -6,7 +6,7 @@
 namespace kata {
 namespace game_of_life {
 
-int countAliveNeighboringCells(const World& /*world*/, size_t /*line*/, size_t /*column*/)
+int countAliveNeighboringCells(const World& /*world*/, std::size_t /*line*/, std::size_t /*column*/)
 {
    return 0;
 }
