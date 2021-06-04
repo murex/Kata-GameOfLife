@@ -46,6 +46,8 @@ You can fill it from [here](./QuickRetrospective.md)
 
 ### General
 
+
+- [TCR (Test && Commit || Revert) wrapper](tcr/TCR.md) utility
 * Handy for any type of turn-based session: [Online Timer](https://agility.jahed.dev/)
 * [Coaching Plan Wiki Page](https://mxwiki.murex.com/confluence/display/DEVS/%5BXP+Coaching%5D+A+Kata+Plan+to+go+from+learning+TDD+to+refactoring+existing+code)
 
