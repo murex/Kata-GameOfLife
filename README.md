@@ -1,6 +1,6 @@
 # Game of Life
 
-![Kata Image](images/ColorCodedRacetrack.gif)
+[![Kata Image](images/ColorCodedRacetrack.gif)](https://upload.wikimedia.org/wikipedia/commons/d/d0/Color_coded_racetrack_large_channel.gif)
 Image by [Simpsons contributor](https://en.wikipedia.org/wiki/User:Simpsons_contributor) on [WikiMedia Commons](https://commons.wikimedia.org/wiki/File:Color_coded_racetrack_large_channel.gif)
 
 ## Description
