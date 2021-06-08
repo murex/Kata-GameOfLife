@@ -6,7 +6,7 @@ Image by [Simpsons contributor](https://en.wikipedia.org/wiki/User:Simpsons_cont
 ## Description
 
 Available [here](http://codingdojo.org/kata/GameOfLife/)
-it
+
 ### What is Bottom-up and Top-down TDD?
 
 Bottom-up style is when you build a brick outside your main acceptance test flow and only later integrate it
