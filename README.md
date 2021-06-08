@@ -1,12 +1,12 @@
 # Game of Life
 
-![Kata Image](images/ColorCodedRacetrack.gif)
+![Kata Image](./images/ColorCodedRacetrack.gif) <br>
 Image by [Simpsons contributor](https://en.wikipedia.org/wiki/User:Simpsons_contributor) on [WikiMedia Commons](https://commons.wikimedia.org/wiki/File:Color_coded_racetrack_large_channel.gif)
 
 ## Description
 
 Available [here](http://codingdojo.org/kata/GameOfLife/)
-
+it
 ### What is Bottom-up and Top-down TDD?
 
 Bottom-up style is when you build a brick outside your main acceptance test flow and only later integrate it
