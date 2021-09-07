@@ -5,6 +5,8 @@ using World = std::vector<std::vector<bool>>;
 const bool _ = false;
 const bool O = true;
 
+namespace com {
+namespace murex {
 namespace kata {
 namespace game_of_life {
 
@@ -13,3 +15,6 @@ GAME_OF_LIFE_API World generation(const World& /*world*/);
 
 } // namespace game_of_life
 } // namespace kata
+} // namespace murex
+} // namespace com
+

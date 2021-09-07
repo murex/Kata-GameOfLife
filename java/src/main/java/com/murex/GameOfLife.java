@@ -1,3 +1,5 @@
+package com.murex;
+
 class GameOfLife {
 
     static String[] generation(String[] world) {

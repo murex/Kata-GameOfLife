@@ -3,6 +3,8 @@
 #include <kata/game_of_life/GameOfLife.hpp>
 
 
+namespace com {
+namespace murex {
 namespace kata {
 namespace game_of_life {
 
@@ -18,3 +20,6 @@ World generation(const World& /*world*/)
 
 } // namespace game_of_life
 } // namespace kata
+} // namespace murex
+} // namespace com
+
