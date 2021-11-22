@@ -64,12 +64,6 @@ target_sources(Kata-GameOfLife-test
         ${CMAKE_CURRENT_SOURCE_DIR}/test/GameOfLifeTest.cpp
 )
 
-target_include_directories(Kata-GameOfLife-test
-    PRIVATE
-        ${CMAKE_CURRENT_SOURCE_DIR}/test
-        ${CMAKE_CURRENT_SOURCE_DIR}/include
-)
-
 target_link_libraries(Kata-GameOfLife-test
     PRIVATE
         Kata-GameOfLife-shared
@@ -82,6 +76,8 @@ add_test(NAME ctest-Kata-GameOfLife COMMAND Kata-GameOfLife-test)
 add_custom_target(Docs
     SOURCES
         ../README.md
+        ./GETTING_STARTED.md
+        ./GETTING_STARTED_TCR.md
         ../QuickRetrospective.md)
 
 set_property(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} PROPERTY VS_STARTUP_PROJECT Kata-GameOfLife-test)

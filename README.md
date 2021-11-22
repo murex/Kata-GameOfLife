@@ -33,6 +33,18 @@ _Note: Bottom-up / Top-down are also known as Inside-out / Outside-in_
 * There is a risk that the brick does not integrate well with the main code, leading to a lot of rework. Then a good recommendation is to integrate the brick as soon as possible in the main code.
 * Creating a robust brick is often more work than necessary for the current acceptance test
 
+## Getting Started
+
+### Running the kata using TCR
+
+- [Java](./java/GETTING_STARTED_TCR.md)
+- [C++](./cpp/GETTING_STARTED_TCR.md)
+
+### Running the kata using a standard approach
+
+- [Java](./java/GETTING_STARTED.md)
+- [C++](./cpp/GETTING_STARTED.md)
+
 ## Session Quick Retrospective
 
 You can fill it from [here](./QuickRetrospective.md)
@@ -41,16 +53,14 @@ You can fill it from [here](./QuickRetrospective.md)
 
 ### For this Kata
 
-* [Wikipedia - Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
-* [Conway's Game of Life online editor](https://tebs-game-of-life.com/conways-editor/conways-editor.html)
-* [TDD - From the Inside Out or the Outside In?](https://8thlight.com/blog/georgina-mcfadyen/2016/06/27/inside-out-tdd-vs-outside-in.html) by Georgina McFadyen
+- [Wikipedia - Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
+- [Conway's Game of Life online editor](https://tebs-game-of-life.com/conways-editor/conways-editor.html)
+- [TDD - From the Inside Out or the Outside In?](https://8thlight.com/blog/georgina-mcfadyen/2016/06/27/inside-out-tdd-vs-outside-in.html) by Georgina McFadyen
 
 ### General
 
-
 - [TCR (Test && Commit || Revert) wrapper](tcr/TCR.md) utility
-* Handy for any type of turn-based session: [Online Timer](https://agility.jahed.dev/)
-* [Coaching Plan Wiki Page](https://mxwiki.murex.com/confluence/display/DEVS/%5BXP+Coaching%5D+A+Kata+Plan+to+go+from+learning+TDD+to+refactoring+existing+code)
+- Handy for any type of turn-based session: [Online Timer](https://agility.jahed.dev/)
 
 ## Session Information
 
@@ -60,13 +70,13 @@ You can fill it from [here](./QuickRetrospective.md)
 
 ### Topic
 
-Bottom-up TDD
+- Bottom-up TDD
 
 ### Focus Points
 
-* Test readability
-* Teamwork
-* ⚠ YAGNI
+- Test readability
+- Teamwork
+- ⚠ YAGNI
 
 ### Source Files
 
@@ -75,9 +85,9 @@ Bottom-up TDD
 
 ## License
 
-The `Kata-GameOfLife` and the accompanying materials are made available
-under the terms of the MIT License ([here](LICENSE.md)) which accompanies this
-distribution, and is available at the Open Source site [here](https://opensource.org/licenses/MIT)
+`Kata-GameOfLife` and the accompanying materials are made available
+under the terms of the [MIT License](./LICENSE.md) which accompanies this
+distribution, and is available at the [Open Source site](https://opensource.org/licenses/MIT)
 
 ## Acknowledgements
 
