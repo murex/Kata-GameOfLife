@@ -35,19 +35,12 @@ _Note: Bottom-up / Top-down are also known as Inside-out / Outside-in_
 
 ## Getting Started
 
-### Running the kata using TCR
-
-- [Java](./java/GETTING_STARTED_TCR.md)
-- [C++](./cpp/GETTING_STARTED_TCR.md)
-
-### Running the kata using a standard approach
-
-- [Java](./java/GETTING_STARTED.md)
-- [C++](./cpp/GETTING_STARTED.md)
+- [Java](java/GETTING_STARTED.md)
+- [C++](cpp/GETTING_STARTED.md)
 
 ## Session Quick Retrospective
 
-You can fill it from [here](./QuickRetrospective.md)
+You can fill it from [here](QuickRetrospective.md)
 
 ## Useful Links
 
@@ -66,7 +59,7 @@ You can fill it from [here](./QuickRetrospective.md)
 
 ### Style & Duration
 
-- 2-hour [Randori Kata](./doc/RandoriKata.md)
+- 2-hour [Randori Kata](doc/RandoriKata.md)
 
 ### Topic
 
@@ -80,18 +73,18 @@ You can fill it from [here](./QuickRetrospective.md)
 
 ### Source Files
 
-- [Java](./java)
-- [C++](./cpp)
+- [Java](java)
+- [C++](cpp)
 
 ## License
 
 `Kata-GameOfLife` and the accompanying materials are made available
-under the terms of the [MIT License](./LICENSE.md) which accompanies this
+under the terms of the [MIT License](LICENSE.md) which accompanies this
 distribution, and is available at the [Open Source site](https://opensource.org/licenses/MIT)
 
 ## Acknowledgements
 
-See [ACKNOWLEDGEMENTS.md](./ACKNOWLEDGEMENTS.md) for more information.
+See [ACKNOWLEDGEMENTS.md](ACKNOWLEDGEMENTS.md) for more information.
 
 ## Contributors
 
