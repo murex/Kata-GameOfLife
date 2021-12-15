@@ -1,7 +1,7 @@
 # Game of Life
 
 ![Kata Image](./images/ColorCodedRacetrack.gif) <br>
-Image by [Simpsons contributor](https://en.wikipedia.org/wiki/User:Simpsons_contributor) on [WikiMedia Commons](https://commons.wikimedia.org/wiki/File:Color_coded_racetrack_large_channel.gif)
+"[Color Coded Race Track](https://commons.wikimedia.org/wiki/File:Color_coded_racetrack_large_channel.gif)" by [Simpsons contributor](https://en.wikipedia.org/wiki/User:Simpsons_contributor) is licenced under is licenced under [Wikimedia Commons](https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia)
 
 ## Description
 
