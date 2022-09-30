@@ -22,6 +22,12 @@ SOFTWARE.
 
 package game_of_life
 
-func doSomething() int {
-	return 42
+type world []string
+
+func generation(w world) world {
+	return nil
+}
+
+func countLiveNeighbors(w world, line, column int) int {
+	return 0
 }

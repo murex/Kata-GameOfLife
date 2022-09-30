@@ -27,6 +27,66 @@ import (
 	"testing"
 )
 
-func Test_acceptance_test(t *testing.T) {
-	assert.Equal(t, 42, doSomething())
+func Test_oscillator_acceptance_tests(t *testing.T) {
+
+	t.Skip("test currently disabled") // Comment or remove this line to enable this test case
+
+	tests := []struct {
+		name   string
+		world1 world
+		world2 world
+	}{
+		{
+			name: "blinker",
+			world1: world{
+				"_____",
+				"__O__",
+				"__O__",
+				"__O__",
+				"_____",
+			},
+			world2: world{
+				"_____",
+				"_____",
+				"_OOO_",
+				"_____",
+				"_____",
+			},
+		},
+		{
+			name: "toad",
+			world1: world{
+				"______",
+				"______",
+				"__OOO_",
+				"_OOO__",
+				"______",
+				"______",
+			},
+			world2: world{
+				"______",
+				"___O__",
+				"_O__O_",
+				"_O__O_",
+				"__O___",
+				"______",
+			},
+		},
+	}
+	for _, test := range tests {
+		t.Run(test.name+" oscillator", func(t *testing.T) {
+			assert.Equal(t, test.world2, generation(test.world1))
+			assert.Equal(t, test.world1, generation(test.world2))
+		})
+	}
+}
+
+// Bottom-up
+func Test_count_alive_neighboring_cells_first_test(t *testing.T) {
+	t.Skip("TODO: bottom-up TDD") // Comment or remove this line to enable this test case
+}
+
+// Then top-down
+func Test_game_of_life_first_test(t *testing.T) {
+	t.Skip("TODO: top-down TDD") // Comment or remove this line to enable this test case
 }
