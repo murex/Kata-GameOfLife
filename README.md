@@ -45,6 +45,7 @@ _Note: Bottom-up / Top-down are also known as Inside-out / Outside-in_
 - [Java](java/GETTING_STARTED.md)
 - [C++](cpp/GETTING_STARTED.md)
 - [Go](go/GETTING_STARTED.md)
+- [Python](python/GETTING_STARTED.md)
 
 ## Session Quick Retrospective
 
@@ -86,6 +87,7 @@ You can fill it from [here](QuickRetrospective.md)
 - [Java](java)
 - [C++](cpp)
 - [Go](go)
+- [Python](python)
 
 ## License
 
