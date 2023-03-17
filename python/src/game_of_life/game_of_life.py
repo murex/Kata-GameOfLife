@@ -18,9 +18,12 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-def generation(world):
+from typing import List
+
+
+def generation(world: List[str]) -> List[str]:
     pass
 
 
-def count_live_neighbors(world, line, column):
+def count_live_neighbors(world: List[str], line: int, column: int) -> int:
     return 0
