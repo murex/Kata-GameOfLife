@@ -2,6 +2,7 @@
 [![Maven](https://github.com/murex/Kata-GameOfLife/actions/workflows/maven.yml/badge.svg)](https://github.com/murex/Kata-GameOfLife/actions/workflows/maven.yml)
 [![CMake](https://github.com/murex/Kata-GameOfLife/actions/workflows/cmake.yml/badge.svg)](https://github.com/murex/Kata-GameOfLife/actions/workflows/cmake.yml)
 [![Go](https://github.com/murex/Kata-GameOfLife/actions/workflows/go.yml/badge.svg)](https://github.com/murex/Kata-GameOfLife/actions/workflows/go.yml)
+[![Pytest](https://github.com/murex/Kata-GameOfLife/actions/workflows/pytest.yml/badge.svg)](https://github.com/murex/Kata-GameOfLife/actions/workflows/pytest.yml)
 [![Check Markdown links](https://github.com/murex/Kata-GameOfLife/actions/workflows/markdown-link-check.yml/badge.svg)](https://github.com/murex/Kata-GameOfLife/actions/workflows/markdown-link-check.yml)
 [![Add contributors](https://github.com/murex/Kata-GameOfLife/actions/workflows/contributors.yml/badge.svg)](https://github.com/murex/Kata-GameOfLife/actions/workflows/contributors.yml)
 
