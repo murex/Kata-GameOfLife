@@ -23,63 +23,66 @@ SOFTWARE.
 package com.murex;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
+
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 public class GameOfLifeTest {
-    
+    final static boolean x = false; // Dead
+    final static boolean T = true; // Alive
+
     @Disabled
     @Test
     public void blinker_oscillator_acceptance_test() {
-        String[] world1 = {
-            "_____",
-            "__O__",
-            "__O__",
-            "__O__",
-            "_____",
+        boolean[][] world1 = {
+                {x, x, x, x, x},
+                {x, x, T, x, x},
+                {x, x, T, x, x},
+                {x, x, T, x, x},
+                {x, x, x, x, x},
         };
-        String[] world2 = {
-            "_____",
-            "_____",
-            "_OOO_",
-            "_____",
-            "_____",
+        boolean[][] world2 = {
+                {x, x, x, x, x},
+                {x, x, x, x, x},
+                {x, T, T, T, x},
+                {x, x, x, x, x},
+                {x, x, x, x, x},
         };
         assertArrayEquals(world2, GameOfLife.generation(world1));
         assertArrayEquals(world1, GameOfLife.generation(world2));
     }
-    
+
     @Disabled
     @Test
     public void toad_oscillator_acceptance_test() {
-        String[] world1 = {
-            "______",
-            "______",
-            "__OOO_",
-            "_OOO__",
-            "______",
-            "______",
+        boolean[][] world1 = {
+                {x, x, x, x, x, x},
+                {x, x, x, x, x, x},
+                {x, x, T, T, T, x},
+                {x, T, T, T, x, x},
+                {x, x, x, x, x, x},
+                {x, x, x, x, x, x},
         };
-        String[] world2 = {
-            "______",
-            "___O__",
-            "_O__O_",
-            "_O__O_",
-            "__O___",
-            "______",
+        boolean[][] world2 = {
+                {x, x, x, x, x, x},
+                {x, x, x, T, x, x},
+                {x, T, x, x, T, x},
+                {x, T, x, x, T, x},
+                {x, x, T, x, x, x},
+                {x, x, x, x, x, x},
         };
         assertArrayEquals(world2, GameOfLife.generation(world1));
         assertArrayEquals(world1, GameOfLife.generation(world2));
     }
-    
+
     /* Bottom-up */
-    
+
     @Test
     public void count_alive_neighboring_cells_first_test() {
     }
-    
+
     /* Then top-down */
-    
+
     @Test
     public void game_of_life_first_test() {
     }

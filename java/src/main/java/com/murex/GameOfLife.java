@@ -24,11 +24,11 @@ package com.murex;
 
 class GameOfLife {
 
-    static String[] generation(String[] world) {
-        return new String[]{};
+    static boolean[][] generation(boolean[][] world) {
+        return new boolean[][]{};
     }
 
-    static int countAliveNeighboringCells(String[] world, int line, int column) {
+    static int countAliveNeighboringCells(boolean[][] world, int line, int column) {
         return 0;
     }
 }
