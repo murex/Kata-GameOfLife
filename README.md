@@ -47,6 +47,7 @@ _Note: Bottom-up / Top-down are also known as Inside-out / Outside-in_
 - [C++](cpp/GETTING_STARTED.md)
 - [Go](go/GETTING_STARTED.md)
 - [Python](python/GETTING_STARTED.md)
+- [Typescript](typescript/GETTING_STARTED.md)
 
 ## Session Quick Retrospective
 
@@ -89,6 +90,7 @@ You can fill it from [here](QuickRetrospective.md)
 - [C++](cpp)
 - [Go](go)
 - [Python](python)
+- [Typescript](typescript)
 
 ## License
 
