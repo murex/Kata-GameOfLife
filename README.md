@@ -44,9 +44,9 @@ _Note: Bottom-up / Top-down are also known as Inside-out / Outside-in_
 
 ## Getting Started
 
-- [Java](java/GETTING_STARTED.md)
 - [C++](cpp/GETTING_STARTED.md)
 - [Go](go/GETTING_STARTED.md)
+- [Java](java/GETTING_STARTED.md)
 - [Python](python/GETTING_STARTED.md)
 - [Typescript](typescript/GETTING_STARTED.md)
 
@@ -87,9 +87,9 @@ You can fill it from [here](QuickRetrospective.md)
 
 ### Source Files
 
-- [Java](java)
 - [C++](cpp)
 - [Go](go)
+- [Java](java)
 - [Python](python)
 - [Typescript](typescript)
 
