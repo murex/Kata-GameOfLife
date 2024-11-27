@@ -70,8 +70,6 @@ target_sources(Kata-GameOfLife-test
 target_link_libraries(Kata-GameOfLife-test
     PRIVATE
         Kata-GameOfLife-shared
-        # Uncomment if using ApprovalTests, remove otherwise
-        # ApprovalTests
         gtest_main)
 
 add_test(
