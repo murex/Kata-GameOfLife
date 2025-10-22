@@ -20,28 +20,20 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
-
 #include <vector>
 #include <kata/game_of_life/GameOfLife.hpp>
 
-
-namespace com {
-namespace murex {
-namespace kata {
-namespace game_of_life {
-
-int countAliveNeighboringCells(const World& /*world*/, std::size_t /*line*/, std::size_t /*column*/)
+namespace com::murex::kata::game_of_life
 {
-   return 0;
-}
 
-World generation(const World& /*world*/)
-{
-	return {};
-}
+   int countAliveNeighboringCells(const World & /*world*/, std::size_t /*line*/, std::size_t /*column*/)
+   {
+      return 0;
+   }
 
-} // namespace game_of_life
-} // namespace kata
-} // namespace murex
-} // namespace com
+   World generation(const World & /*world*/)
+   {
+      return {};
+   }
 
+} // namespace com::murex::kata::game_of_life
